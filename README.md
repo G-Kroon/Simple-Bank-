@@ -1,3 +1,5 @@
+##Simple Bank
+
 This code creates a simple bank account system with the following features:
 
 1.  **Account Creation**: Users can create a new account by registering with a unique username and password.
