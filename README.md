@@ -1,4 +1,4 @@
-##Simple Bank
+#Simple Bank
 
 This code creates a simple bank account system with the following features:
 
