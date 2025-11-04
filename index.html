@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bank Account System</h1>
+    </header>
+    <main>
+        <section id="login-section">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <button id="login-btn">Login</button>
+            </form>
+        </section>
+        <section id="register-section">
+            <h2>Register</h2>
+            <form id="register-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password"><br><br>
+                <button id="register-btn">Register</button>
+            </form>
+        </section>
+        <section id="account-section" style="display: none;">
+            <h2>Account</h2>
+            <p id="balance"></p>
+            <form id="deposit-form">
+                <label for="amount">Deposit:</label>
+                <input type="number" id="amount" name="amount"><br><br>
+                <button id="deposit-btn">Deposit</button>
+            </form>
+            <form id="withdraw-form">
+                <label for="amount">Withdraw:</label>
+                <input type="number" id="amount" name="amount"><br><br>
+                <button id="withdraw-btn">Withdraw</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+                  </html>
